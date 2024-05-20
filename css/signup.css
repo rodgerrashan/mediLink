@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+}
+.login-container {
+    display: flex;
+    height: 100vh;
+}
+
+.brand-section {
+    background-color: #38b6e5;
+    color: black;
+    padding: 30px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+.form-section {
+    background-image: linear-gradient(to right, #38b6e5, #19beae);
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form-signin {
+    width: 300px;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.form-signin h2 {
+    margin-bottom: 20px;
+}
+.form-signin .form-control {
+    margin-bottom: 15px;
+}
+.form-signin button {
+    margin: 5px 0;
+}
+.form-signin a {
+    display: block;
+    margin-top: 10px;
+}
+.cursor-pointer:hover {
+    cursor: pointer;
+}
+.btn-outline-primary {
+    transition: background-color 0.3s, color 0.3s;
+}
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: white;
+}
+.form-section {
+    width: 100%;
+    
+}
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 5px 0;
+}
